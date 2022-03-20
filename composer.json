@@ -1,0 +1,19 @@
+{
+    "name": "roman/voda18-telegram-bot",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Roman\\Voda\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Morozov Roman",
+            "email": "r-r-roma-a-a@yandex.ru"
+        }
+    ],
+    "require": {
+        "longman/telegram-bot": "^0.75.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
